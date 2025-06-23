@@ -1,0 +1,78 @@
+
+
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400,600,700,900&display=swap');
+
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+
+
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(icomoon.css);
+@import url(font-awesome.min.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(swiper.min.css);
+@import url(slick.css);
+@import url(jquery.fancybox.min.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+/** landing page **/
+.bg-video {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   z-index: 0;
+}
+
+.landing-hero h1 {
+   color: #fff;
+   font-size: 3rem; /* o ajusta a tu gusto */
+   font-weight: 700;
+}
+
+.landing-hero p {
+   color: #fff;
+   font-size: 1.75rem;
+}
+
+.landing-hero h1,
+.landing-hero p {
+   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+/** end landing page **/
+
+/** eleccion section**/
+.eleccion img {
+     max-width: 80%;
+     height: auto;
+}
+
+.eleccion h2{
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.eleccion p, li{
+     font-size: 1.15rem;
+
+}
+/** eleccion end
+
