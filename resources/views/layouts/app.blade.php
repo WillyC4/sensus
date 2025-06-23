@@ -4,14 +4,19 @@
    @include('partials.head')
 </head>
 <body>
-   @include('partials.loader') <!-- Opcional -->
-   @include('partials.header')
+   @include('partials.loader')
+
+   @unless (isset($noHeader))
+      @include('partials.header')
+   @endunless
 
    <main>
       @yield('content')
    </main>
 
-   @include('partials.footer')
+   @unless (isset($noFooter))
+      @include('partials.footer')
+   @endunless
 
    @include('partials.scripts')
 </body>
