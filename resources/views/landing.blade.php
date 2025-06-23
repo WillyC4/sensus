@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>Landing on Sensus</title>
-   <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-   <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
-   <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
-   <link rel="icon" type="image/x-icon" href="{{ asset('images/favicon.ico') }}">
-</head>
-<body class="main-layout">
+@include('partials.head')
 
 <!-- Hero -->
 <section class="landing-hero d-flex align-items-center position-relative" style="min-height: 100vh; overflow: hidden;">
