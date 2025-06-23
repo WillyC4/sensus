@@ -16,6 +16,8 @@
 
    @unless (isset($noFooter))
       @include('partials.footer')
+   @else
+      @include('partials.footer-alt')
    @endunless
 
    @include('partials.scripts')

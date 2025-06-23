@@ -11,7 +11,7 @@
 <section class="landing-hero d-flex align-items-center position-relative" style="min-height: 100vh; overflow: hidden;">
    <!-- VIDEO de fondo -->
    <video autoplay muted loop playsinline class="bg-video">
-      <source src="{{ asset('images/galaxia.mp4') }}" type="video/mp4">
+      <source src="images/galaxia.mp4" type="video/mp4">
       Tu navegador no soporta video HTML5.
    </video>
 
@@ -184,10 +184,5 @@
       </div>
    </div>
 </div>
-
-<!-- Footer -->
-<footer class="text-center py-2 mt-5 bg-dark text-light">
-   <small>2025 - Sensus. Experiencias que dejan huella.</small>
-</footer>
 
 @endsection
