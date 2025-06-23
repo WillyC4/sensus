@@ -7,3 +7,4 @@ Route::view('/about', 'about');
 Route::view('/team', 'team');
 Route::view('/services', 'service');
 Route::view('/contact', 'contact');
+Route::view('/landing', 'landing');

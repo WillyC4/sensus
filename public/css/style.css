@@ -246,7 +246,7 @@ button {
 }
 
 .loader img {
-     width: 280px;
+     width: 75px;
 }
 
 ul.btn {
@@ -344,7 +344,7 @@ ul.lan li {
      position: absolute;
      right: -3px;
      top: 5px;
-     background: #d1be15;
+     background: #e4ab00;
      width: 20px;
      height: 21px;
      line-height: 15px;
@@ -401,7 +401,7 @@ ul.conta_icon li {
 
 ul.conta_icon li a i {
      padding-right: 5px;
-     color: #d1be15;
+     color: #e4ab00;
 }
 
 ul.conta_icon li a {
@@ -411,7 +411,7 @@ ul.conta_icon li a {
 }
 
 ul.conta_icon li a:hover {
-     color: #d1be15;
+     color: #e4ab00;
      text-decoration: underline !important;
 }
 
@@ -467,7 +467,7 @@ ul.conta_icon li a:hover {
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
      color: #ffffff;
-     background-color: #d1be15;
+     background-color: #e4ab00;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
@@ -475,7 +475,7 @@ ul.conta_icon li a:hover {
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
      color: #ffffff;
-     background-color: #d1be15;
+     background-color: #e4ab00;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -499,7 +499,7 @@ ul.sign li a i {
 .sign_btn {
      float: right;
      max-width: 161px;
-     background: #d1be15;
+     background: #e4ab00;
      font-size: 17px !important;
      width: 100%;
      text-align: center;
@@ -519,9 +519,11 @@ ul.sign li a i {
 .banner_main {
      padding: 60px 0 60px 0;
      background: url(../images/banner.jpg);
-     background-size: 100% 100%;
+     background-size: cover;
      background-repeat: no-repeat;
 }
+
+
 
 .text-bg {
      text-align: left;
@@ -539,7 +541,7 @@ ul.sign li a i {
      line-height: 28px;
      padding-bottom: 20px;
      display: block;
-     color: #d1be15;
+     color: #e4ab00;
      font-size: 30px;
      font-weight: 600;
 }
@@ -601,7 +603,7 @@ ul.sign li a i {
 }
 
 .yellow {
-     color: #d1be15;
+     color: #e4ab00;
      font-size: 17px;
      font-weight: bold;
      text-transform: uppercase;
@@ -688,7 +690,7 @@ ul.sign li a i {
 .about_box span {
      font-size: 17px;
      font-weight: 600;
-     color: #d1be15;
+     color: #e4ab00;
      line-height: 30px;
      padding-top: 25px;
      text-transform: uppercase;
@@ -716,8 +718,8 @@ ul.sign li a i {
 .about .read_morea {
      margin-top: 7px;
      padding: 8px 0;
-     margin-left: 40px;
-     background-color: #d1be15;
+
+     background-color: #e4ab00;
      max-width: 168px;
      width: 100%;
      display: inline-block;
@@ -783,12 +785,12 @@ ul.sign li a i {
 
 #ho_color:hover.service_box h3 {
      transition: ease-in all 0.5s;
-     color: #d1be15;
-     border-bottom: #d1be15 solid 3px;
+     color: #e4ab00;
+     border-bottom: #e4ab00 solid 3px;
 }
 
 .service .read_more {
-     color: #d1be15 !important;
+     color: #e4ab00 !important;
      margin: 0 auto;
      max-width: 140px;
      width: 100%;
@@ -798,7 +800,7 @@ ul.sign li a i {
 }
 
 .service .read_more::before {
-     border-right: #d1be15 solid 1px;
+     border-right: #e4ab00 solid 1px;
      border-right-width: 1px;
      border-width: 90px;
 }
@@ -810,7 +812,7 @@ ul.sign li a i {
 /** portfolio section **/
 
 .portfolio {
-     padding-top: 90px;
+     padding-top: 50px;
 }
 
 .portfolio .titlepage {
@@ -855,6 +857,10 @@ ul.sign li a i {
      z-index: 9999;
 }
 
+.middle p {
+     margin: 10% 7px 10px;
+}
+
 .middle {
      z-index: 9999;
      transition: .5s ease;
@@ -866,8 +872,9 @@ ul.sign li a i {
      -ms-transform: translate(-50%, -50%);
      text-align: center;
      background-color: #9d7506e3;
-     width: 90%;
+     width: 92%;
      height: 92%;
+     padding: 7px;
 }
 
 .text2 {
@@ -914,12 +921,12 @@ ul.sign li a i {
 #myCarousel .carousel-control-next:hover,
 #myCarousel .carousel-control-prev:focus,
 #myCarousel .carousel-control-next:focus {
-     background: #d1be15;
+     background: #e4ab00;
      color: #fff;
 }
 
 .portfolio .read_more {
-     color: #d1be15 !important;
+     color: #e4ab00 !important;
      margin: 0 auto;
      max-width: 140px;
      width: 100%;
@@ -929,7 +936,7 @@ ul.sign li a i {
 }
 
 .portfolio .read_more::before {
-     border-right: #d1be15 solid 1px;
+     border-right: #e4ab00 solid 1px;
      border-right-width: 1px;
      border-width: 90px;
 }
@@ -973,18 +980,18 @@ ul.sign li a i {
 }
 
 .business .business_box p {
-     color: #d1be15;
+     color: #e4ab00;
      font-size: 19px;
      font-weight: bold;
 }
 
 .business .read_more {
-     color: #d1be15 !important;
+     color: #e4ab00 !important;
      margin-top: 60px;
 }
 
 .business .read_more::before {
-     border-right: #d1be15 solid 1px;
+     border-right: #e4ab00 solid 1px;
      border-width: 90px;
 }
 
@@ -1045,6 +1052,10 @@ ul.social_icont li a {
      font-size: 22px;
 }
 
+#ho_bg {
+     margin-bottom: 35px;
+}
+
 #ho_bg:hover.team_img img {
      border: #e5d660 solid 15px;
      background-color: #ddd;
@@ -1083,7 +1094,7 @@ ul.social_icont li a {
 }
 
 .team_Carousel .carousel-indicators li {
-     background-color: #d1be15;
+     background-color: #e4ab00;
      width: 15px;
      height: 15px;
      border-radius: 20px;
@@ -1128,7 +1139,7 @@ ul.social_icont li a {
      line-height: 28px;
      padding-top: 27px;
      display: inline-block;
-     color: #d1be15;
+     color: #e4ab00;
      text-transform: uppercase;
      margin-left: 20px;
      float: left;
@@ -1140,7 +1151,7 @@ ul.social_icont li a {
      line-height: 28px;
      color: #383737;
      text-align: left;
-     border: #d1be15 solid 1px;
+     border: #e4ab00 solid 1px;
      display: inline-block;
      margin-bottom: 30px;
 }
@@ -1155,7 +1166,7 @@ ul.social_icont li a {
 }
 
 .testimonial_Carousel .carousel-indicators li {
-     background-color: #d1be15;
+     background-color: #e4ab00;
      width: 15px;
      height: 15px;
 }
@@ -1172,11 +1183,33 @@ ul.social_icont li a {
 
 /** end testimonial section **/
 
+/** sentimientos section **/
+
+.sentidos {
+   text-align: center;
+}
+
+.sentidos h1 {
+   font-size: 2rem;
+   font-weight: 700;
+   margin-bottom: 10px;
+}
+
+.sentidos h3 {
+   font-size: 1.5rem;
+}
+
+.sentidos p {
+   font-size: 1.3rem;
+   line-height: 1.6;
+   padding-bottom: 25px;
+}
+/** end sentimientos section **/
 
 /** contact  section **/
 
 .contact {
-     padding-top: 80px;
+     padding-top: 50px;
      background: #fff;
 }
 
@@ -1216,7 +1249,7 @@ ul.social_icont li a {
 .contact_form .send_btn {
      font-size: 20px;
      transition: ease-in all 0.5s;
-     background-color: #d1be15;
+     background-color: #e4ab00;
      text-transform: uppercase;
      color: #fffefe;
      padding: 15px 0px;
@@ -1249,7 +1282,7 @@ ul.social_icont li a {
 .footer {
      padding: 50px 0 50px;
      background: url(../images/footer_bg.jpg);
-     background-size: 100% 100%;
+     background-size: cover;
      background-repeat: no-repeat;
      text-align: center;
      margin-top: 90px;
@@ -1274,7 +1307,7 @@ ul.location_icon {
 }
 
 ul.location_icon li {
-     font-size: 18px;
+     font-size: 17px;
      line-height: 30px;
      color: #fff;
      text-align: left;
@@ -1377,7 +1410,7 @@ ul.img_icon li {
 .main_form .send_btn {
      font-size: 17px;
      transition: ease-in all 0.5s;
-     background-color: #efd818;
+     background-color: #e4ab00;
      text-transform: uppercase;
      color: #fff;
      padding: 9px 0px;
@@ -1420,6 +1453,51 @@ ul.img_icon li {
      color: #fff;
 }
 
-
 /** end footer **/
+
+/** landing page **/
+.bg-video {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   z-index: 0;
+}
+
+.landing-hero h1 {
+   color: #fff;
+   font-size: 3rem; /* o ajusta a tu gusto */
+   font-weight: 700;
+}
+
+.landing-hero p {
+   color: #fff;
+   font-size: 1.75rem;
+}
+
+.landing-hero h1,
+.landing-hero p {
+   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+/** end landing page **/
+
+/** eleccion section**/
+.eleccion img {
+     max-width: 80%;
+     height: auto;
+}
+
+.eleccion h2{
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.eleccion p, li{
+     font-size: 1.15rem;
+
+}
+/** eleccion end
 

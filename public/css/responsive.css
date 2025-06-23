@@ -32,6 +32,7 @@ line-height: 49px;
     .about_box {max-width: inherit; margin-bottom: 30px;}
     .titlepage h2 {
       font-size: 27px;
+      text-align: center;
     }
    
     .ho_socal {width: 190px;
@@ -44,20 +45,18 @@ padding-right: 10px;}
 
 @media (min-width: 576px) and (max-width: 767px) {
 
-
-
     .text-bg {padding-top: 30px; margin-bottom: 30px;}
     .text-bg h1 {font-size: 52px;
 
-line-height: 66px;}
+    line-height: 66px;}
     
    .about_box {margin-bottom: 30px;}
    .ho_socal {width: 217px;
-height: 214px;}
+    height: 214px;}
 
-.d_none1 {display: none;}
-.titlepage h2 {font-size: 28px;}
-ul.conta_icon li a {font-size: 12px;}
+    .d_none1 {display: none;}
+    .titlepage h2 {font-size: 28px;}
+    ul.conta_icon li a {font-size: 12px;}
     .navigation.navbar {
         float: left;
         display: inherit !important;
@@ -94,6 +93,16 @@ ul.conta_icon li a {font-size: 12px;}
 }
 
 @media (max-width: 575px) {
+
+    .container, .about_box {
+        text-align: center;
+    }
+
+    .service_box img, .about_img img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
    
     .logo {
         text-align: center !important;
@@ -108,6 +117,7 @@ line-height: 38px;
     }
     .titlepage h2 {
         font-size: 27px;
+        text-align: center;
     }
     .about_box {margin-bottom: 30px;}
     .service .read_more {margin: inherit;}
