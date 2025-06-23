@@ -52,7 +52,7 @@
                      <div id="ho_bg" class="team_img text-center">
                         <img src="images/team3.png" alt="Team 2"/>
                         <h4 class="mt-3 mb-1">Micaela Corrales</h4>
-                        <p class="text-muted">Coordinador de Marketing</p>
+                        <p class="text-muted">Coordinadora de Marketing</p>
                         <div class="ho_socal">
                            <ul class="social_icont">
                               <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
