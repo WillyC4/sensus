@@ -39,9 +39,9 @@
             <p>Más allá del diseño: creamos experiencias que estimulan los sentidos, despiertan emociones y posicionan tu marca.</p>
             <br>
             <ul>
-               <li>🔍 Diagnóstico sensorial personalizado</li>
-               <li>🎯 Estrategias enfocadas en resultados</li>
-               <li>🌿 Experiencias auténticas, humanas y memorables</li>
+               <li>Diagnóstico sensorial personalizado</li>
+               <li>Estrategias enfocadas en resultados</li>
+               <li>Experiencias auténticas, humanas y memorables</li>
             </ul>
          </div>
       </div>
